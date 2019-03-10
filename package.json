@@ -1,0 +1,33 @@
+{
+  "name": "test-material-react",
+  "version": "1.0.0",
+  "description": "My test repo for material-components-web-react",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "thdk",
+  "license": "ISC",
+  "dependencies": {
+    "@material/chips": "^1.0.0",
+    "@material/react-chips": "^0.10.0",
+    "from": "^0.1.7",
+    "import": "0.0.6",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "resolve": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/react": "^16.8.7",
+    "@types/react-dom": "^16.8.2",
+    "rollup": "^1.2.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.19.3",
+    "typescript": "^3.3.3333"
+  }
+}
